@@ -1,4 +1,6 @@
 {
   "item.tutorialmod.feminite": "Feminite",
-  "item.tutorialmod.testosorite": "Testosorite"
+  "item.tutorialmod.testosorite": "Testosorite",
+
+  "block.tutorialmod.feminite_block": "Block of :3"
 }
