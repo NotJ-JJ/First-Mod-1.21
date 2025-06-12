@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block FEMINITE_BLOCK = registerBlock("feminite_block", new Block(AbstractBlock.Settings.create().strength(5.0f,10.0f).requiresTool().sounds(BlockSoundGroup.AZALEA)));
+    public static final Block TESTOSORITE_BLOCK = registerBlock("testosorite_block", new Block(AbstractBlock.Settings.create().strength(10.0f,50.0f).requiresTool().sounds(BlockSoundGroup.SCAFFOLDING)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -29,6 +30,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.FEMINITE_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.TESTOSORITE_BLOCK);
         });
     }
 }
