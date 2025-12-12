@@ -1,3 +1,13 @@
 {
-  
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tutorialmod:feminite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorialmod:feminite"
+  }
 }

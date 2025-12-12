@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.femboy.tutorialmod.TutorialMod;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -11,10 +12,16 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
-    public static final Block FEMINITE_BLOCK = registerBlock("feminite_block", new Block(AbstractBlock.Settings.create().strength(5.0f,10.0f).requiresTool().sounds(BlockSoundGroup.AZALEA)));
-    public static final Block TESTOSORITE_BLOCK = registerBlock("testosorite_block", new Block(AbstractBlock.Settings.create().strength(10.0f,50.0f).requiresTool().sounds(BlockSoundGroup.SCAFFOLDING)));
+    public static final Block FEMINITE_BLOCK = registerBlock("feminite_block",
+            new Block(AbstractBlock.Settings.create().strength(5.0f,10.0f).requiresTool().sounds(BlockSoundGroup.AZALEA)));
+
+    public static final Block TESTOSORITE_BLOCK = registerBlock("testosorite_block",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2,5),
+                    AbstractBlock.Settings.create().strength(10f).requiresTool().sounds(BlockSoundGroup.SCAFFOLDING)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
