@@ -16,6 +16,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.FEMINITE))
                     .displayName(Text.translatable("itemgroup.tutorialmod.femboy_items"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModItems.CHISEL);
                         entries.add(ModItems.FEMINITE);
                         entries.add(ModItems.TESTOSORITE);
                         entries.add(ModBlocks.FEMINITE_BLOCK);
