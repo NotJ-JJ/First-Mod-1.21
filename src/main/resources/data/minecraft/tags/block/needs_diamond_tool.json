@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "tutorialmod:testosorite_block",
-    "tutorialmod:feminite_block",
     "tutorialmod:magic_block"
   ]
 }

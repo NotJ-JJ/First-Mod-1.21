@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TESTOSORITE);
                         entries.add(ModBlocks.FEMINITE_BLOCK);
                         entries.add(ModBlocks.TESTOSORITE_BLOCK);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     })
                     .build());
 
