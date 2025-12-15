@@ -19,6 +19,8 @@ public class ModItemGroups {
                         entries.add(ModItems.CHISEL);
                         entries.add(ModItems.FEMINITE);
                         entries.add(ModItems.TESTOSORITE);
+                        entries.add(ModItems.STAR_ESSENCE);
+                        entries.add(ModItems.CAULIFLOWER);
                         entries.add(ModBlocks.FEMINITE_BLOCK);
                         entries.add(ModBlocks.TESTOSORITE_BLOCK);
                         entries.add(ModBlocks.MAGIC_BLOCK);
