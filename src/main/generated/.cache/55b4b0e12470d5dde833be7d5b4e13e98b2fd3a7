@@ -1,0 +1,15 @@
+// 1.21	2025-12-15T19:37:41.7488064	First Mod/Model Definitions
+ed27aaa00c275028e1495bb6d6bfdcea1851067b assets\tutorialmod\models\block\magic_block.json
+826d6bd191f97dd0a81560627f54f0dd3d93d539 assets\tutorialmod\models\item\cauliflower.json
+404ef81d0dca62bdfb05f1ff364a2d7c54cce9a6 assets\tutorialmod\blockstates\testosorite_block.json
+69a45d9eda7fcbbb46f3a4bf568243a7b2141123 assets\tutorialmod\models\item\chisel.json
+2d316979b5247b802b0590d94b40bac75fde6974 assets\tutorialmod\blockstates\magic_block.json
+3a84ede6c5d71d0fb201b74bf9e679930d512e79 assets\tutorialmod\models\item\feminite.json
+aa6f5352eb48c034339cd254626cb7f43c8a19d3 assets\tutorialmod\models\block\testosorite_block.json
+25448297e7e56046f6c97f3a5600deacbde0c051 assets\tutorialmod\models\block\feminite_block.json
+9385b3ae2d0e63f15691b0454fe4b725524b703a assets\tutorialmod\models\item\star_essence.json
+c4c5d06fedc23437feb52b42e6e77a11714f6539 assets\tutorialmod\blockstates\feminite_block.json
+edaf92bef3412f7e81a9ca7f49c7abd00d5a25b4 assets\tutorialmod\models\item\testosorite_block.json
+8f269e068554022ef9995c12755d3d2c283be1a2 assets\tutorialmod\models\item\testosorite.json
+db3c7fd404543728f8b989bee0ca68018dac6e79 assets\tutorialmod\models\item\magic_block.json
+c844bb65c64bc042b657e97b196d26d5a86dfd0b assets\tutorialmod\models\item\feminite_block.json

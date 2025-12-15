@@ -1,0 +1,7 @@
+// 1.21	2025-12-15T19:37:41.7460958	First Mod/Recipes
+9c9a06e322c2b7cee4f3acbc51b4eb270ad19cff data\tutorialmod\recipe\feminite.json
+244002f0d745533d729082982937a3037daa46ec data\tutorialmod\recipe\feminite_block.json
+27879e38816ab5c554fb8109e930839adf8e1bb5 data\tutorialmod\advancement\recipes\misc\feminite.json
+856166b5087551b78748a4f48ff990110def0769 data\tutorialmod\advancement\recipes\misc\feminite_block.json
+24873a6e58ff98ecda6ee06d7cd4ee427b0c1d13 data\tutorialmod\recipe\magic_block.json
+d0af68830cde3ba519cc7beff6f138ae40bc1a0c data\tutorialmod\advancement\recipes\misc\magic_block.json

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tutorialmod:testosorite"
+    },
+    {
+      "item": "tutorialmod:cauliflower"
+    },
+    {
+      "item": "tutorialmod:feminite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:magic_block"
+  }
+}
