@@ -1,6 +1,7 @@
 package net.femboy.tutorialmod.block.custom;
 
 import net.femboy.tutorialmod.item.ModItems;
+import net.femboy.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
@@ -33,12 +34,16 @@ public class MagicBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if (entity instanceof ItemEntity item) {
-            if (item.getStack().getItem() == ModItems.FEMINITE) {
+            if (isTransmutableItem(item.getStack())) {
                 item.setStack(new ItemStack(ModItems.TESTOSORITE,item.getStack().getCount()));
             }
         }
 
         super.onSteppedOn(world, pos, state, entity);
+    }
+
+    private boolean isTransmutableItem(ItemStack stack) {
+        return stack.isIn(ModTags.Items.TRANSMUTABLE_ITEMS);
     }
 
     @Override

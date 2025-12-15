@@ -41,7 +41,10 @@ public class ChisellItem extends Item {
 
                 context.getStack().damage(1,((ServerWorld) world),
                         ((ServerPlayerEntity) context.getPlayer()),
-                        item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
+                        item -> {
+                            assert context.getPlayer() != null;
+                            context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND);
+                        });
 
                 world.playSound(null,context.getBlockPos(), SoundEvents.BLOCK_STONE_PLACE, SoundCategory.BLOCKS);
             }
